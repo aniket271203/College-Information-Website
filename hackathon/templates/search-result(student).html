@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="../static/index.css" />
+    <link rel="stylesheet" href="/static/student.css" />
+    <style>
+      /* Center the search bar and button */
+      .search-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a
+        style="
+          float: right;
+          font-size: 50px;
+          color: rgb(2, 29, 80);
+          margin-top: 1%;
+          margin-right: 1%;
+        "
+        >International Institute of Information Technology</a
+      >
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="search-container">
+      <form method="POST" action="/search_student_results">
+        <label for="search">Search for students:</label>
+        <input
+          type="text"
+          id="search"
+          name="search_query"
+          value="{{ search_query }}"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <h1 style="text-align: center">Search Results</h1>
+    <div class="card-container">
+      {% if person %}
+      <h2>Search Results:</h2>
+      {% set length = person|length %} {% for i in range(length) %}
+      <div style="height: 550px" class="card">
+        <img src="../static/profile.png" alt="Profile picture" />
+        <h2>{{ person[i][1] }}</h2>
+        <p>Name: {{ person[i][2] }}</p>
+        <p>Email: {{ person[i][3] }}</p>
+        <p>Hostel: {{ person[i][9] }}, House: {{ person[i][10] }}</p>
+        <p>City: {{ person[i][5] }}, Country: {{ person[i][4] }}</p>
+        <p>Year of joining: {{ person[i][6] }}, Branch: {{ person[i][8] }}</p>
+      </div>
+      {% endfor %} {% else %}
+      <h2>No results found.</h2>
+      {% endif %}
+    </div>
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

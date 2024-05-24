@@ -1,0 +1,246 @@
+Advanced Algorithms
+Advanced Mechanics of Materials and Design
+Advanced Optimization: Theory and Applications
+Advanced Structural Analysis 
+Advances in Robotics & Control 
+Analog Electronic Circuits 
+Applied Electromagnetics 
+Behavioral Research: Statistical Methods 
+Biomolecular Structures
+Business Fundamentals-1 
+Business Fundamentals-2 
+Classical Mechanics (H1) 
+Cognitive Neuroscience
+Cognitive Science and AI 
+Communication Theory 
+Compilers 
+Comprehension of Indian Music
+Computational Linguistics 1 
+Computational Social Science 
+Computer Graphics (H1) 
+Computer Systems Organization 
+Computer Vision
+Computing in Sciences II (H2) 
+Computing Tools 
+Data Foundation Systems 
+Data Structures and Algorithms
+Data Systems
+Design and Analysis of Software Systems 
+Design of Hydraulic Structures 
+Design Thinking - Idea to Evaluate 
+Design Thinking - Research to Define 
+Differential Equations
+Digital Signal Analysis (H1)
+Digital VLSI Design Zia Abbas
+Disaster Management Sunitha P
+Distributed Data Systems 
+Distributed Systems 
+Earthquake Engineering 
+Electrodynamics (H2)
+Electronics Workshop I 
+Electronics Workshop II 
+Exploring Masculinities
+Flexible Electronics
+Gender, Kinship and State Law
+General and Structural Chemistry
+Green Buildings 
+Hydro Informatics 
+ICTs for Development
+Indian Grammatical Tradition (H2) 
+Information and Communication
+Information Security Audit and Assurance 
+Internals of Application Servers 
+Intro to Human Sciences 
+Intro to Processor Architecture 
+Intro to UAV Design 
+Introduction to Algorithms Engineering (H2) 
+Introduction to Brain and Cognition (H2) 
+Introduction to Game Theory
+Introduction to Information Security (H2)
+Introduction to IoT 
+Introduction to Linguistics II 
+Introduction to NLP 
+Introduction to Particle Physics 
+Introduction to Philosophy of Technology 
+Introduction to Quantum Information and Computation 
+Introduction to Quantum Information and Computation (H1)
+Introduction to Sanskrit Peter Scharf
+Introduction to Software Systems (H1)
+Language Typology and Universals 
+Linear Algebra 
+Linear Partial Differential Equations and Variational Calculus 
+Literature and the Ethics of telling a Story
+Literature, History, and Belonging in Hyderabad 
+Machine Learning for Natural Sciences 
+Machine, Data and Learning 
+Mechatronics System Design 
+Minds, Machines and Intelligence
+Molecular Modeling and Simulations 
+Multivariate Analysis 
+Music, Mind, and Technology 
+NGS Data Analysis
+Nonlinear Dynamics 
+Optical Remote Sensing 
+Optimization Methods 
+Organic Chemistry 
+Performance modeling of computer systems(H2)
+Physics of Soft Condensed Matter 
+Physics of The Early Universe (40) 
+Principles of Information Security 
+Principles of Semiconductor Devices 
+Product Management 101
+Program Verification
+Program Verification (H1) 
+Quantum Algorithms 
+Questions of Crime and Punishment in Literature
+Readings in Indian Literatures 
+Research Methods in Human Sciences
+Robotics: Planning and Navigation 
+Science & Technology Critical Perspectives
+Science II 
+Science Lab I 
+Science Lab-2 (H2)
+Science, Technology and Society 
+Software Engineering 
+Software Programming for Performance (H2) 
+Spatial Data Sciences 
+Stability of Structures 
+Statistical Mechanics 
+Statistical Methods in AI
+System and Network Security 
+The Making of Contemporary India
+The State in Colonial India
+Thermodynamics 
+Thinking and Knowing in the Human Sciences-I 
+Thinking through moral problems 
+Time Frequency Analysis 
+Topics in Coding Theory 
+Topics in Deep Learning 
+Topics in Signal Processing
+Topics in Software Foundations
+User Research Methods 
+Value Education II 
+ValuesEthics and AI 
+Advanced Computer Networks
+Advanced Graphics
+Advanced NLP
+Advanced Operating Systems
+Advanced Structural Design 
+Algorithm Analysis & Design 
+Analog IC Design
+Applied Ethics 
+Automata Theory
+Basics of Ethics 
+Behavioral Research & Experimental Design 
+Bio Instrumentation & Devices-2
+Bioinformatics 
+Biomolecular Structure Interaction and Dynamics 
+Business Finance
+Business Fundamentals-1 
+Business Fundamentals-2 
+Chemical Kinetics and Reaction Dynamics 
+Computational Linguistics II: Comp Semantics and Discourse parsing
+Computer Problem Solving 
+Computer Programming 
+Computing in Sciences-1 
+Critical Viewing and Reading 
+Data Analytics I 
+Data and Applications 
+Data Driven Drug Discovery 
+Data Structures & Algorithms for Problem Solving 
+Data Systems 
+Deep Learning- Theory and Practices 
+Design for Testability 
+Design of Wearable Systems 
+Design Thinking - Idea to Evaluate
+Design Thinking - Research to Define
+Digital Image Processing 
+Digital Systems and Microcontrollers 
+Distributed Systems
+Discrete Structures
+Distributing Trust & Blockchains
+Earthquake Resistant Design of Masonry Structures 
+Electronic Workshop-1 
+Embedded Systems Workshop 
+Embedded Systems Workshop 
+Entropy and Information
+Environment & Politics in India 
+Environmental Science & Technology 
+Fairness, Privacy and Ethics in AI 
+Finite Element Method 
+Game Design and Engineering
+Gender and Society
+Human Computer Interaction
+Human Sciences Lab
+Hydrological modelling and Software Development 
+Information Retrieval and Extraction 
+Information Theory
+Intro to Cognitive Science 
+Intro to Neural and Cognitive Modeling
+Intro to Psychology 
+Introduction to Biology
+Introduction to History 
+Introduction to Literature 
+Introduction to Linguistics-1 
+Introduction to Neuroeconomics
+Introduction to Politics
+Introduction to Quantum Field Theory
+Introduction to Sociology
+Introduction to Stochastic
+IoT Workshop 
+IS Codes on Design and structural Safety Assessment
+Language and Society
+Learning and Memory
+Making of Contemporary India
+Mathematical Models in Biology
+MCS 1-Probability and Statistics
+MCS 2-Linear Algebra
+Mobile Robotics
+Modern Coding Theory
+Modern Complexity Theory
+Multi Agent Systems
+Multivariate Analysis
+Networks, Signals and Systems
+Open Quantum Systems and Quantum Thermodynamics 
+Operating Systems and Networks
+Organizational Operations 
+Principles of Programming Languages 
+Principles of Semiconductor Devices 
+Probability and Random Processes 
+Probability and Statistics 
+Product Design Workshop 
+Product Management 101 
+Quantum Mechanics 
+Real Analysis
+Real-Time Embedded Systems
+Research in Information Security 
+Robotics: Dynamics and Control
+Science Lab I 
+Signal Detection and Estimation Theory
+Signal Processing 
+Social Science Perspective on HCI 
+Software Systems Development 
+Spatial Informatics
+Spectroscopy 
+Speech Analysis and Linguistics
+Speech Signal Processing
+Statistical Methods in AI
+Structural Dynamics
+Structural Engineering Design Studio
+Structural Wind Engineering 
+Systems Biology 
+Systems Thinking
+Technology Product Entrepreneurship 1
+Technology Product Entrepreneurship 2
+Theories and Practices of Nationalism 
+Theory of Elasticity
+Thinking and Knowing in the Human Sciences-1 
+Thinking and Knowing in the Human Sciences-2 
+Topics in Applied Optimization 
+Topics in Nanosciences 
+Topics in Software Engineering 
+Understanding Raga: Semi Classical Forms of Indian 
+User Research Methods
+Value Education-1
+VLSI Design
+Wireless Communications

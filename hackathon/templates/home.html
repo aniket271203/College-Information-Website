@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IIIT Contact Directory</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a style="float:right; font-size: 50px; color: rgb(2, 29, 80); margin-top: 1%; margin-right: 1%;">International Institute of Information Technology</a>
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1></h1>
+      <section id="slideshow">
+        <img class="slider active" src="../static/h3.png" alt="slide1" onclick="nextSlide()" />
+        <div class="slider-caption">
+          <h2>Campus Contacts</h2>
+        </div>
+        <img class="slider" src="../static/h1.png" alt="slide2" onclick="nextSlide()" />
+        <img class="slider" src="../static/h2.png" alt="slide3" onclick="nextSlide()" />
+      </section>
+      
+      
+
+      <section id="about-section">
+        <h2>About Us</h2>
+        <p>
+            Our application provides a comprehensive directory of students and faculty members, 
+            making it easy for anyone to quickly find the contact information they need. 
+            It is designed with the needs of the IIIT Hyderabad community in mind. 
+            <span id="more">... <a href="#" onclick="showMore()">View More</a></span>
+        </p>
+      </section>
+      
+
+      <section id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>How do I search for a student or faculty member?</h3>
+          <p>To search for a student, visit the Students page by accessing that section in the navigation bar. You will find a search bar in the Students page through which you can search for a student. To search for a faculty, access the faculty page and rest of the process is same.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I update my contact information in the directory?</h3>
+          <p>No, you cannot change any data unless you have an Authentication key. However, if you are an authority and have an authentication key, you can insert, edit or delete any information.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Are my courses updated from time to time?</h3>
+          <p>Yes, the courses of every student are updated from time to time by the authorities.</p>
+      </section>
+
+      <section id="contact-us-section">
+        <h2>Contact Us</h2>
+        <h4> For any queries please contact:</h4>
+         
+        <p>
+          aniket.gupta@students.iiit.ac.in<br>
+          shreyansh.bhanu@research.iiit.ac.in<br>
+          chandana.y@students.iiit.ac.in
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+    <script src="../static/app.js"></script>
+  </body>
+</html>

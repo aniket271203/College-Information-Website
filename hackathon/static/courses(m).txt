@@ -1,0 +1,123 @@
+ CS3.402 | Advanced Computer Networks | Ankit Gangwal
+ CS5.502 | Advanced Graphics, AR & VR | Avinash Sharma,Narayanan P J
+ CS7.501 | Advanced NLP | Manish Srivastava
+ CS3.304 | Advanced Operating Systems | Manish Srivastava
+ CE1.604 | Advanced Structural Design | Sunitha Palissery
+ CS1.301 | Algorithm Analysis & Design | Suryajith Chillara
+ EC2.401 | Analog IC Design | Abhishek Srivastava
+ HS0.303 | Applied Ethics | Ashwin Jayanti
+ CS1.302 | Automata Theory | Shantanav Chakraborty
+ HS0.203 | Basics of Ethics | Ashwin Jayanti
+ CS9.421 | Behavioral Research & Experimental Design | Vinoo A R
+ EC1.301 | Bio Instrumentation & Devices-2 | Anshu Sarje
+ SC3.202 | Bioinformatics | Nita Parekh
+ SC3.321 | Biomolecular Structure Interaction and Dynamics | Gopalakrishnan B
+ PD2.422 | Business Finance | Mayank Mathur
+ PD2.321 | Business Fundamentals-1 | Himanshu Warudkar
+ PD2.421 | Business Fundamentals-2 | Himanshu Warudkar
+ SC2.305 | Chemical Kinetics and Reaction Dynamics | Prabhakar Bhimalapuram
+ CL3.202 | Computational Linguistics II: Comp Semantics and Discourse parsing | Radhika Mamidi
+ CS0.301 | Computer Problem Solving | Lini Teresa Thomas
+ CS0.101 | Computer Programming | Girish Varma, Abhishek Deshpande and Shantanav Chakraborty
+ SC4.101 | Computing in Sciences-1 | Prabhakar Bhimalapuram
+ HS1.301 | Critical Viewing and Reading | Sushmita Banerji
+ CS4.405 | Data Analytics I | Krishna Reddy Polepalli
+ CS4.301 | Data and Applications | Ponnurangam Kumaraguru
+ SC4.412 | Data Driven Drug Discovery | Deva Priyakumar
+ CS1.304 | Data Structures & Algorithms for Problem Solving | Vineet Gandhi
+ CS4.401 | Data Systems | Kamalakar Karlapalem
+ CS7.601 | Deep Learning- Theory and Practices | Naresh Manwani
+ EC2.407 | Design for Testability | Usha Gogineni
+ PD1.502 | Design of Wearable Systems | Raghu Babu Reddy Y
+ PD1.401 | Design Thinking - Idea to Evaluate | Raman Saxena
+ PD1.301 | Design Thinking - Research to Define | Raman Saxena
+ CS7.404 | Digital Image Processing | Santosh Ravi Kiran
+ EC2.101 | Digital Systems and Microcontrollers | Aftab M Hussain, Harikumar K and Ubaidulla Pandarakottilil
+ CS3.401 | Distributed Systems | Kishore Kothapalli
+ MA5.101 | Discrete Structures | Ashok Kumar Das, Venkatesh Choppella
+ CS3.403 | Distributing Trust & Blockchains | Sujit P Gujar
+ CE1.607 | Earthquake Resistant Design of Masonry Structures | P Pravin Kumar Venkat Rao
+ EC2.102 | Electronic Workshop-1 | K Madhava Krishna, Chiranjeevi Yarra
+ EC3.202a | Embedded Systems Workshop | Sachin Chaudhari, Abhishek Srivastava
+ EC3.202 | Embedded Systems Workshop | Zia Abbas,Aftab M. Hussain
+ CS1.407 | Entropy and Information | Indranil Chakrabarty
+ HS4.301 | Environment & Politics in India | Radhika Krishnan
+ CS9.428 | Environmental Science & Technology | Ramachandra Prasad Pillutla
+ CS7.504 | Fairness, Privacy and Ethics in AI | Sujit P Gujar
+ CE4.501 | Finite Element Method | Venkateswarlu Mandadi
+ CS9.438 | Game Design and Engineering | Kavita Vemuri
+ HS8.201 | Gender and Society | Sushmita Banerji
+ PD1.501 | Human Computer Interaction | Raman Saxena
+ HS7.101 | Human Sciences Lab | Radhika Krishnan
+ CE5.502 | Hydrological modelling and Software Development | Rehana Shaik
+ CS4.406 | Information Retrieval and Extraction | Vasudeva Varma Kalidindi
+ EC5.410 | Information Theory | Lalitha Vadlamani, Arti Yardi
+ CS9.426 | Intro to Cognitive Science | Vishnu Sreekumar
+ CS9.427 | Intro to Neural and Cognitive Modeling | Bapiraju Surampudi
+ HS2.202 | Intro to Psychology | Priyanka Srivastava
+ SC3.101 | Introduction to Biology | Vinod Palakkad Krishnanunni
+ HS3.201 | Introduction to History | Aniket Alam
+ HS1.204 | Introduction to Literature | Nazia Akhtar
+ CL1.101 | Introduction to Linguistics-1 | Aditi Mukherjee
+ CS9.423 | Introduction to Neuroeconomics | Kavita Vemuri
+ HS4.201 | Introduction to Politics | Aakansha Natani
+ SC1.421 | Introduction to Quantum Field Theory | Diganta Das
+ HS2.201 | Introduction to Sociology | Radhika Krishnan
+ SC1.320 | Introduction to Stochastic Processes | Bhaswar Ghosh
+ CE9.609 | IoT Workshop | Nagamanikandan Govindan,Sachin Chaudhari
+ CE1.605 | IS Codes on Design and structural Safety Assessment | Pradeep Kumar Ramancharla
+ CL2.203 | Language and Society | Dipti Mishra Sharma
+ CS9.439 | Learning and Memory | Bhaktee Dongaonkar
+ HS4.102 | Making of Contemporary India | Aniket Alam
+ SC3.316 | Mathematical Models in Biology | Abhishek Deshpande
+ MA6.301 | MCS 1-Probability and Statistics | Pawan Kumar
+ MA6.302 | MCS 2-Linear Algebra | Girish Varma
+ CS7.503 | Mobile Robotics | K Madhava Krishna
+ EC5.411 | Modern Coding Theory | Prasad Krishnan
+ CS1.405 | Modern Complexity Theory | Srinathan Kannan
+ CS7.507 | Multi Agent Systems | Praveen Paruchuri,Meghna Lowalekar
+ MA4.405 | Multivariate Analysis | Venkateswarlu Mandadi
+ EC5.101 | Networks, Signals and Systems | Anshu Sarje, Santosh Nannuru
+ SC1.310 | Open Quantum Systems and Quantum Thermodynamics | Samyadeb Bhattacharya
+ CS3.301 | Operating Systems and Networks | Krishna Reddy Polepalli
+ PD2.423 | Organizational Operations | Mayank Mathur
+ CS1.402 | Principles of Programming Languages | Venkatesh Choppella
+ EC2.409 | Principles of Semiconductor Devices | Anshu Sarje
+ MA6.102 | Probability and Random Processes | Praful Mankar
+ MA6.101 | Probability and Statistics | Pawan Kumar,Tejas Bodas
+ PD1.411 | Product Design Workshop | Veera Prakash Yalla
+ PD2.401 | Product Management 101 | Ramesh Loganathan
+ SC1.203 | Quantum Mechanics | Subhadip Mitra
+ MA4.101 | Real Analysis | Siddhartha Das, Diganta Das
+ CS3.502 | Real-Time Embedded Systems | Deepak Gangadharan
+ CS8.501 | Research in Information Security | Ashok Kumar Das
+ EC4.401 | Robotics: Dynamics and Control | Spandan Roy,Nagamanikandan Govindan
+ SC4.110 | Science Lab I | Tapan Kumar Sau,Prabhakar Bhimalapuram
+ EC5.406 | Signal Detection and Estimation Theory | Santosh Nannuru
+ EC5.201 | Signal Processing | Chiranjeevi Yarra,Jayanthi Sivaswamy
+ CS9.425 | Social Science Perspective on HCI | Nimmi Rangaswamy
+ CS6.302 | Software Systems Development | Charu Sharma
+ CS4.408 | Spatial Informatics | Rajan Krishnan Sundara
+ SC2.304 | Spectroscopy | Krishnan Marimuthu
+ CL2.405 | Speech Analysis and Linguistics | Chiranjeevi Yarra
+ EC5.408 | Speech Signal Processing | Anil Kumar Vuppala
+ CS7.403 | Statistical Methods in AI | Anoop Namboodiri
+ CE1.501 | Structural Dynamics | Sunitha Palissery
+ CE1.502 | Structural Engineering Design Studio | Pradeep Kumar Ramancharla
+ CE1.509 | Structural Wind Engineering | Rehana Shaik
+ SC3.203 | Systems Biology | Vinod Palakkad Krishnanunni
+ EC5.202 | Systems Thinking | Spandan Roy,Vinod Palakkad Krishnanunni
+ PD2.431 | Technology Product Entrepreneurship 1 | Ramesh Loganathan
+ PD2.432 | Technology Product Entrepreneurship 2 | Ramesh Loganathan
+ HS3.303 | Theories and Practices of Nationalism | Aniket Alam
+ CE0.501 | Theory of Elasticity P Pravin Kumar | Venkat Rao
+ HS0.201 | Thinking and Knowing in the Human Sciences-1 | Sushmita Banerji,Ashwin Jayanti
+ HS0.202 | Thinking and Knowing in the Human Sciences-2 | Nazia Akhtar, Radhika Krishnan
+ MA8.401 | Topics in Applied Optimization | Pawan Kumar
+ SC2.401 | Topics in Nanosciences | Tapan Kumar Sau
+ CS6.501 | Topics in Software Engineering | Raghu Babu Reddy Y
+ HS1.205 | Understanding Raga: Semi Classical Forms of Indian | Saroja T K
+ CS9.501 | User Research Methods | Priyanka Srivastava
+ OC3.101 | Value Education-1 | Anil Kumar Vuppala, Radhika Mamidi
+ EC2.201 | VLSI Design | Zia Abbas
+ EC5.407 | Wireless Communications | Praful Mankar

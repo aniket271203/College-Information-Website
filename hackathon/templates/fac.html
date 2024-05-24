@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Faculty Data</title>
+    <link rel="stylesheet" href="../static/index .css" />
+    <link rel="stylesheet" href="/static/student.css" />
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a
+        style="
+          float: right;
+          font-size: 50px;
+          color: rgb(2, 29, 80);
+          margin-top: 1%;
+          margin-right: 1%;
+        "
+        >International Institute of Information Technology</a
+      > 
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="text-align: center">FACULTY DATA</h1>
+    <div class="search">
+      <form method="POST" action="/search_faculty">
+        <label for="search">Search for faculty:</label>
+        <input type="text" id="search" name="search" placeholder="Search...." />
+        <button type="submit">Search</button>
+      </form>
+      <button
+        onclick="document.getElementById('add-form').style.display='block'"
+      >
+        Add New
+      </button>
+    </div>
+
+    <div class="form-wrapper">
+      <div id="add-form" class="popup-form">
+        <div class="popup-form-content">
+          <form method="POST" action="/add_faculty">
+            <label for="name" class="required">Name:</label>
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="position" class="required">Position:</label>
+            <input
+              type="text"
+              id="position"
+              name="position"
+              required
+            /><br /><br />
+
+            <label for="email" class="required">Email:</label>
+            <input type="text" id="email" name="email" required /><br /><br />
+
+            <label for="eac" class="required">Education And College:</label>
+            <input type="text" id="eac" name="eac" required /><br /><br />
+
+            <label for="researcharea" class="required">Research Areas:</label>
+            <input
+              type="text"
+              id="researcharea"
+              name="researcharea"
+              required
+            /><br /><br />
+
+            <label for="lab" class="required">Research Lab:</label>
+            <input type="text" id="lab" name="lab" required /><br /><br />
+
+            <label for="key">Authentication Key:</label>
+            <input type="password" id="key" name="key" /><br /><br />
+
+            <input type="submit" value="Submit" />
+
+            <button
+              onclick="document.getElementById('add-form').style.display='none'"
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    {%for i in range(length)%}
+    <div style="height: 770px" class="card">
+      {% if url[i][0] == "none" %}
+      <img src="../static/profile.png" alt="Profile picture" />
+      {% else %}
+      <img src="{{ url[i][0] }}" alt="Profile picture" />
+      {% endif %}
+
+      <h2>{{name[i][0]}}</h2>
+      <p>{{position[i][0]}}</p>
+      <p>{{education[i][0]}}</p>
+      <h3>Reasearch Area:</h3>
+      <p>{{research_area[i][0]}}</p>
+      <h3>Reasearch Lab:</h3>
+      <p>{{research_lab[i][0]}}</p>
+      <h3>Email:</h3>
+      <p>{{email[i][0]}}</p>
+      <button class="delete-button" onclick="deleteData('{{ name[i][0] }}')">
+        Delete
+      </button>
+    </div>
+    {%endfor%}
+
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+    <script src="static/fac.js"></script>
+  </body>
+</html>

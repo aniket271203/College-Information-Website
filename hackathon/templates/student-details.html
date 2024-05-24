@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="/static/student.css" />
+  </head>
+  <body>
+    <header>
+        <img src="/static/logo.png" alt="XYZ College Logo" />
+        <a style="float:right; font-size: 50px; color: rgb(2, 29, 80); margin-top: 1%; margin-right: 1%;">International Institute of Information Technology</a>
+        <nav>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/fac.html">Faculty</a></li>
+            <li><a href="/students.html">Students</a></li>
+            <li class="dropdown">
+              <a class="dropbtn">Courses</a>
+              <div class="dropdown-content">
+                <a href="/courses(s).html">Spring</a>
+                <a href="/courses(m).html">Monsoon</a>
+              </div>
+            </li>
+          <li><a href="/inst.html">Instructions</a></li>
+          </ul>
+        </nav>
+      </header>
+    <h1> {{ student[1] }}</h1>
+    <div class="student-details">
+      <img src="../static/profile.png" alt="Profile picture" />
+      <p>Roll No: {{ student[1] }}</p>
+      <p>Email: {{ student[3] }}</p>
+      <p>House: {{ student[10] }}, Hostel: {{ student[9] }}</p>
+      <p>Courses: {{ student[7] }}</p>
+      <p>Year of Joining: {{ student[6] }}, Branch: {{ student[8] }}</p>
+      <p>City: {{ student[4] }}, Country: {{ student[5]}}</p>
+      <h2>Name: {{ student[2] }}</h2>
+      <button onclick="showGrades()">Show Grades</button>
+      <button onclick="showEditForm()">Edit Details</button>
+
+      <div id="edit-form" class="popup-form">
+        <div class="popup-form-content">
+          <form id="update-form" action="/update_student" method="POST">
+            <label for="courses">Courses:</label>
+            <input type="text" id="courses" name="courses" value="{{ student[7] }}" /><br /><br />
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" value="{{ student[4] }}" /><br /><br />
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" value="{{ student[5] }}" /><br /><br />
+            <label for="hostel">Hostel:</label>
+            <input type="text" id="hostel" name="hostel" value="{{ student[9] }}" /><br /><br />
+            <label for="sem1">Sem1:</label>
+            <input type="text" id="sem1" name="sem1"  /><br /><br />
+            <label for="sem2">Sem2:</label>
+            <input type="text" id="sem2" name="sem2"  /><br /><br />
+            <label for="sem3">Sem3:</label>
+            <input type="text" id="sem3" name="sem3"  /><br /><br />
+            <label for="sem4">Sem4:</label>
+            <input type="text" id="sem4" name="sem4"  /><br /><br />
+            <label for="sem5">Sem5:</label>
+            <input type="text" id="sem5" name="sem5"  /><br /><br />
+            <label for="sem6">Sem6:</label>
+            <input type="text" id="sem6" name="sem6"  /><br /><br />
+            <label for="sem7">Sem7:</label>
+            <input type="text" id="sem7" name="sem7"  /><br /><br />
+            <label for="sem8">Sem8:</label>
+            <input type="text" id="sem8" name="sem8"  /><br /><br />
+            <input type="hidden" id="rollno" name="rollno" value="{{ student[1] }}" />
+            <label for="pin">Authentication Pin:</label>
+            <input type="password" id="pin" name="pin" required /><br /><br />
+            <input type="submit" id="update-btn" value="Submit" />
+            <button type="button" onclick="hideEditForm()">Cancel</button>
+          </form>
+        </div>
+      </div>
+      </div>
+      <div id="grades-form" class="popup-form">
+        <div class="popup-form-content">
+          <form onsubmit="getGrades('{{student[1]}}'); return false;">
+            <label for="pin1">Authentication Pin:</label>
+            <input type="password" id="pin1" name="pin" required /><br /><br />
+            <input type="submit" value="Submit" />
+            <button onclick="hideGrades()">Cancel</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+      {% if flag==1%}
+      <h3>Grades:</h3>
+            <ul>
+            {% for i in range(11,19) %}
+            <li>Sem {{i-10}} :{{ student[i] }}</li>
+            {% endfor %}
+            </ul>
+        {%endif%}
+        </div> 
+    </div>
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+    <script>
+        function showGrades() {
+          document.getElementById("grades-form").style.display = "block";
+        }
+      
+        function hideGrades() {
+          document.getElementById("grades-form").style.display = "none";
+        }
+        function showEditForm() {
+        document.getElementById("edit-form").style.display = "block";
+        }
+
+        function hideEditForm() {
+        document.getElementById("edit-form").style.display = "none";
+        }
+        function getGrades(rollno) {
+          const pin = document.getElementById("pin1").value;
+          url="/view_grades/"+rollno+"|"+pin
+          window.location.href = url;
+        }
+        function updateStudent() {
+          const rollno = document.getElementById("rollno").value;
+          const courses = document.getElementById("courses").value;
+          const city = document.getElementById("city").value;
+          const country = document.getElementById("country").value;
+          const hostel = document.getElementById("hostel").value;
+
+          // Create a new XMLHttpRequest object
+          const xhr = new XMLHttpRequest();
+
+          // Set up a callback function to handle the response
+          xhr.onload = function() {
+            if (xhr.status === 200) {
+              // Redirect to the student view page
+              window.location.href = `/view_student/${rollno}`;
+            } else {
+              // Display an error message
+              alert("Error updating student details.");
+            }
+          };
+
+          // Set up the request parameters
+          xhr.open("POST", "/update_student");
+          xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+          // Send the request with the student data
+          const data = `rollno=${rollno}&courses=${courses}&city=${city}&country=${country}&hostel=${hostel}`;
+          xhr.send(data);
+        }
+      </script>
+  </body>
+</html>

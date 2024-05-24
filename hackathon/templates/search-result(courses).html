@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="../static/courses(m).css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a
+        style="
+          float: right;
+          font-size: 50px;
+          color: rgb(2, 29, 80);
+          margin-top: 1%;
+          margin-right: 1%;
+        "
+        >International Institute of Information Technology</a
+      >
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="text-align: center">Search Results</h1>
+    <div class="card-container">
+      {% if courses %}
+      <h2>Search Results:</h2>
+      {% for course in courses %}
+      <div class="card">
+        <div class="container">
+          <div class="course-code"><b>{{ course[1] }}</b></div>
+          <div class="course-name">Course_Name: {{ course[2] }}</div>
+          <div class="prof-name">Professor: {{ course[3] }}</div>
+        </div>
+      </div>
+      {% endfor %} {% else %}
+      <h2>No results found.</h2>
+      {% endif %}
+    </div>
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

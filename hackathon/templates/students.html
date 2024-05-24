@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StudentList</title>
+    <link rel="stylesheet" href="/static/student.css" />
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a
+        style="
+          float: right;
+          font-size: 50px;
+          color: rgb(2, 29, 80);
+          margin-top: 1%;
+          margin-right: 1%;
+        "
+        >International Institute of Information Technology</a
+      >
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="text-align: center">STUDENT DATA</h1>
+
+    <div class="search">
+      <form method="POST" action="/search_student">
+        <label for="search">Search for Student:</label>
+        <input type="text" id="search" name="search" placeholder="Search...." />
+        <button type="submit">Search</button>
+      </form>
+      <button
+        onclick="document.getElementById('add-form').style.display='block'"
+      >
+        Add New
+      </button>
+    </div>
+
+    <div id="add-form" class="popup-form">
+      <div class="popup-form-content">
+        <form method="POST" action="/add_student">
+          <label for="rollno" class="required">Roll Number:</label>
+          <input type="text" id="rollno" name="rollno" required /><br /><br />
+
+          <label for="name" class="required">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email" class="required">Email:</label>
+          <input type="text" id="email" name="email" required /><br /><br />
+
+          <label for="house">House:</label>
+          <input type="text" id="house" name="house" /><br /><br />
+
+          <label for="hostel">Hostel:</label>
+          <input type="text" id="hostel" name="hostel" /><br /><br />
+
+          <label for="branch">Branch:</label>
+          <input type="text" id="branch" name="branch" /><br /><br />
+
+          <label for="yoj" class="required">Year Of Joining:</label>
+          <input type="text" id="yoj" name="yoj" required /><br /><br />
+
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" /><br /><br />
+
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="country" /><br /><br />
+
+          <label for="key">Authentication Key:</label>
+          <input type="password" id="key" name="key" /><br /><br />
+
+          <input type="submit" value="Submit" />
+          <button
+            onclick="document.getElementById('add-form').style.display='none'"
+          >
+            Cancel
+          </button>
+        </form>
+      </div>
+    </div>
+    {% for i in range(length) %}
+    <div style="height: 600px" class="card">
+      <img src="../static/profile.png" alt="Profile picture" />
+      <h2>Name: {{ name[i][0] }}</h2>
+      <p>Roll No: {{ rollno[i][0] }}</p>
+      <p>Email: {{ email[i][0] }}</p>
+      <p>House: {{ house[i][0] }}, Hostel: {{ hostel[i][0] }}</p>
+      <p>Year of Joining: {{ yoj[i][0] }}, Branch: {{ branch[i][0] }}</p>
+      <p>City: {{ city[i][0] }}, Country: {{ country[i][0] }}</p>
+      <button onclick="deleteData('{{ rollno[i][0] }}')">Delete</button>
+      <button onclick="viewStudent('{{ rollno[i][0] }}')">View Details</button>
+    </div>
+    {% endfor %}
+
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+    <script src="/static/students_list.js"></script>
+  </body>
+</html>

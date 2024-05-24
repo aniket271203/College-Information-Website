@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="../static/courses(m).css" />
+  </head>
+  <body>
+    <header>
+      <img src="static/logo.png" alt="XYZ College Logo" />
+      <a
+        style="
+          float: right;
+          font-size: 50px;
+          color: rgb(2, 29, 80);
+          margin-top: 1%;
+          margin-right: 1%;
+        "
+        >International Institute of Information Technology</a
+      >
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/fac.html">Faculty</a></li>
+          <li><a href="/students.html">Students</a></li>
+          <li class="dropdown">
+            <a class="dropbtn">Courses</a>
+            <div class="dropdown-content">
+              <a href="/courses(s).html">Spring</a>
+              <a href="/courses(m).html">Monsoon</a>
+            </div>
+          </li>
+          <li><a href="/inst.html">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 style="text-align: center">MONSOON COURSES</h1>
+    <div class="search">
+      <form method="POST" action="/search_course">
+        <label for="search">Search for Courses:</label>
+        <input type="text" id="search" name="search" placeholder="Search...." />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div id="courses"></div>
+    <footer>
+      <p>&copy; 2023 IIIT Hyderabad. All rights reserved.</p>
+    </footer>
+    <script src="../static/courses(m).js"></script>
+  </body>
+</html>
